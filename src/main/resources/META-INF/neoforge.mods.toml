@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+issueTrackerURL=""
+
+[[mods]]
+modId="obliterator_of_neoforge"
+version="1.0.0"
+displayName="Obliterator of Neoforge"
+logoFile="obliterator_of_neoforge.png"
+logoBlur=false
+authors="TelepathicGrunt"
+description='''Watching the world burn!'''
+
+[[mixins]]
+config="obliterator_of_neoforge.mixins.json"
+
+#[[accessTransformers]]
+#file="META-INF/accesstransformer.cfg"
+
+[[dependencies.obliterator_of_neoforge]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.0.0-beta,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.obliterator_of_neoforge]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21,)"
+    ordering="NONE"
+    side="BOTH"

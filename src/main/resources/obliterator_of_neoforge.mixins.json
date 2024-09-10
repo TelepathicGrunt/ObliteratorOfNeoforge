@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "telepathicgrunt.obliteratorofneoforge.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MainMixin"
+  ],
+  "client": [
+    "MinecraftMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}
